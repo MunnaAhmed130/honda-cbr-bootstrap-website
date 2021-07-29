@@ -43,8 +43,7 @@ header{
 
 /* feature bike */
 
-#featured-bikes{
-}
+
 .text-orange{
     color: #e76f51;
 }
@@ -80,6 +79,11 @@ hr{
     border: 3px solid #bdbdbd;
 }
 /* happy-client */
+
+.racing-img-container img{
+    height: 15rem;
+}
+
 /* font awesome */
 
 .fas,
