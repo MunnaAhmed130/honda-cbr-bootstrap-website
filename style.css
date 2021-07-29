@@ -2,6 +2,8 @@ body{
     font-family: 'Poppins', sans-serif;
 }
 
+/* bold */
+
 .bold-6{
     font-weight: 600;
 }
@@ -16,6 +18,9 @@ body{
     font-weight: 900;
 }
 
+/* bold */
+
+/* header */
 header{
     background-color: #264653;
 }
@@ -24,20 +29,8 @@ header{
     background-color: #e76f51;
 }
 
-
-.nav-container{
-    width: 75%;
-    justify-content: start;
-    align-items: center;
-}
-
-
-.text-orange{
-    color: #e76f51;
-}
-
 .header-info{
-    max-width: 500px;
+    max-width: 480px;
     /* padding-top: 10rem; */
 }
 
@@ -46,28 +39,56 @@ header{
     padding-bottom: 5rem;
 }
 
+/* header */
+
+/* feature bike */
+
+#featured-bikes{
+}
+.text-orange{
+    color: #e76f51;
+}
+
 hr{
     color: #e76f51;
     width: 10%;
     margin: auto;
+    height: 2px;
+    background-color: #e76f51;
+    opacity: 1;
 }
 
 .gray{
     filter: grayscale(100%);
 }
 
+/* feature bike */
+/* happy-client */
+#happy-client{
+    padding-bottom: 100px;
+}
+
+.card-text{
+    max-width: 90%;
+    margin-inline: auto;
+}
+.text-blue{
+    color: #3eb1f2;
+}
+
 .border-user{
     border: 3px solid #bdbdbd;
 }
+/* happy-client */
+/* font awesome */
 
 .fas,
 .far{
     padding-inline: 4px;
 }
+/* font awesome */
 
-.text-blue{
-    color: #3eb1f2;
-}
+
 footer{
     background-color: #0b0d17;
 }
