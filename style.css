@@ -27,6 +27,7 @@ header{
 
 .btn-orange{
     background-color: #e76f51;
+    padding: .5em 2em;
 }
 
 .header-info{
@@ -83,6 +84,18 @@ hr{
 .racing-img-container img{
     height: 15rem;
 }
+
+.big-banner{
+    background-image: url(images/racing.jpg);
+    background-color: black(0, 0, 0, 0.377);
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+    background-repeat: none;
+    height: 30rem;
+    color: white;
+}
+
 
 /* font awesome */
 
